@@ -1,0 +1,49 @@
+/* Reset some basic elements */
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Set global styles */
+body {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Style all headings consistently */
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+}
+
+/* Style links */
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add some padding to the main content area */
+.main {
+  padding: 20px;
+}
+
+/* Style the header */
+.header {
+  background-color: #0070f3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
